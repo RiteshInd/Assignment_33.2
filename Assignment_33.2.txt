@@ -1,0 +1,31 @@
+1. Create a Filled map by using the column State. Denote each state with different colors.
+2. Show the State Name and Total Sales in the lables
+3. Show the tooltip with State Name, Profit and Sales
+
+
+Steps:
+
+In Tableau, open a new workbook and connect to the Sample-Superstore data source.
+
+On the Data Source page, click Sheet 1 to go to a new worksheet.
+
+In the Data pane, under Dimensions, double-click State, Tableau creates a symbol map, with a data point for each state in the Sample-Superstore data source.
+
+On the Marks card, click the Mark-type drop-down and select the Map mark type.
+
+From Measures, drag Profit to Colour on the Marks card.
+
+From Measures, drag Latitude (generated) to the Rows shelf, and place it to the right of the other Latitude field, we now have two identical map views.
+
+On the Rows shelf, right-click the second Latitude field and select Dual Axis.
+
+The second map is now layered on top of the first map. There are now three drop-downs on the Marks card; one for each map view and one for both views (all). These are three separate marks cards that you can use to control the visual detail for each of the map views.
+
+From Measures, drag Sales to size on the Latitude (generated) Marks card, the Sum of sales for each state is shown as text.
+
+The map view now shows the sum of profit, as well as the sum of sales for each category, for each state.
+
+
+
+
+
